@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <title>Sunbic University</title>
+  </head>
+  <body>
+    <header>
+      <div class="container maroon">
+        <div class="rectangle">
+          <img src="img/logo.png" class="logo"/>
+          <div class="text">
+            <h1>Sunbic University</h1>
+          </div>
+        </div>
+        <div class="navigation">
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="form.html">Form</a>
+            </li>
+            <li>
+              <a href="about.html">About Us</a>
+            </li>
+            <li>
+              <a href="courses.html">Courses</a>
+            </li>
+          </ul>
+          <div class="search-form">
+            <input class="search-txt" type="text" placeholder="Search...">
+            <a class="search-btn" href="#"><img src="img/search1.png"></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="form">
+        <div class="formbox">
+          <!-- <img class="resize" src="img/campus.jpg"> -->
+          <div class="form-header">
+            <h1>University Admission Form</h1>
+            <p>Please fill in the form carefully</p>
+          </div>
+          <div class="form-title">
+            <h2>Personal Information</h2>
+          </div>
+          <div class="form-content">
+            <label for="Name">Full Name</label><br />
+            <input type="text" id="name" name="name" /><br />
+            <label for="DOB">Date of birth</label><br />
+            <input type="date" id="DOB" name="DOB" /><br />
+            <label for="Gender">Gender</label><br />
+            <input type="radio" name="gender" id="male"/>
+            <span id="male">Male</span>
+            <input type="radio" name="gender" id="female"/>
+            <span id="female">Female</span><br />
+            <label for="Country">Country</label><br />
+            <input type="text" id="country" name="country" /><br />
+            <label for="Address">Address:</label><br /><br/>
+            <div class="form-address">
+              <label for="City">City</label><br/>
+              <input type="text" id="city" name="city" /><br/>
+              <label for="Province">State / Province</label><br/>
+              <input type="text" id="state" name="state" /><br/>
+              <label for="Street">Street Address</label><br/>
+              <input type="text" id="street" name="street" /><br/>
+            </div>
+            <label for="phone">Phone number</label><br/>
+            <input type="tel" id="phone" name="phone"><br/>
+            <label for="email">Email</label><br/>
+            <input type="email" id="email" name="email">
+          </div>
+          <div class="form-title">
+            <h2>Academic Information</h2>
+          </div>
+          <div class="form-content">
+            <label for="School">School</label><br />
+            <input type="text" id="school" name="school" placeholder="School Name" /><br />
+            <label for="GPA">GPA</label><br/>
+            <input type="number" id="GPA" name="GPA" min="1" max="4"><br/>
+            <label for="entry">Entry date:</label><br />
+            <input type="date" id="entry" name="entry" /><br />
+            <label for="graduation">Graduation date:</label><br />
+            <input type="date" id="graduation" name="graduation" /><br />
+          </div>
+          <div class="form-title">
+            <h2>Attach Documents</h2><br/>
+          </div>
+          <div class="form-content">
+            <label for="myfile">Copies of your High school record (Single file PDF format): </label><br/>
+            <input type="file" id="myfile" name="myfile"><br><br>
+            <label for="myfile2">Graduation certificate:</label><br/>
+            <input type="file" id="myfile2" name="myfile2"><br/>
+        </div>
+        <div class="form-title">
+          <h2>Activity Information</h2>
+        </div>
+        <div class="form-content">
+          <label for="activity">Brief description of your activities</label><br /><br/>
+          <textarea rows="6" cols="50" name="comment" form="usrform" placeholder="Enter your text here..."></textarea><br/><br/>
+          <button class="button">Submit Form</button>
+        </div>
+      </div>
+    </main>
+    <div class ="footer-container maroon">
+      <ul class="icon">
+        <li><a href="https://www.facebook.com/SunbicUniversity" target="_blank"><img class="resize-icon" src="img/fb-logo.png"></a></li>
+        <li><a href="https://www.instagram.com/sunbic_univ/" target="_blank"><img class="resize-icon" src="img/ig-logo.png"></a></li>
+        <li><a href="https://twitter.com/SunbicUniv" target="_blank"><img class="resize-icon" src="img/twitter-logo.png"></a></li>
+        <li><a href="https://www.youtube.com/channel/UCkTfaOyz-2O4xHHtj-t-Ddw" target="_blank"><img class="resize-icon" src="img/youtube.png"></a></li>
+      </ul>
+      <div class="footer">
+        © 2022 Sunbic University 
+      </div>
+  </div>
+  </body>
+</html>

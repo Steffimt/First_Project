@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+  }
+  .logo {
+    width: 53px;
+    height: 46px;
+    /* margin: top-bottom left right */
+    margin: 1rem 1rem;
+  }
+  .navigation ul {
+    float: right;
+    margin: 22px;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    list-style: none;
+    display: flex;
+  }
+  .search-form{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    display: flex;
+    transform: translate(-50%, -10%);
+    background: white;
+    height: 40px;
+    border-radius: 40px;
+  }
+  .search-form:hover > .search-txt{
+    margin-left: 10px;
+    padding: 5px;
+    width: 200px;
+    padding: 0 6px;
+  }
+  .search-form:hover > .search-btn{
+    background: white;
+    border-radius: 20px;
+    margin-right: 3px;
+  }
+  input[type=text]{
+    border: none;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+  .search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 20px;
+    transition: 0.4s;
+    line-height: 25px;
+    width: 0px;
+  }
+  .search-btn img{
+    float: right;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+  }
+  .navigation{
+    width: 100%;
+    padding-top: 5px;
+  }
+  .navigation li a{
+    margin: 1rem;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .navigation li a:hover{
+    text-decoration: underline;
+  }
+  .text {
+    white-space: nowrap;
+    text-align: justify;
+    font-size: 1rem;
+    margin: 1.2rem 1rem;
+    color: white;
+    display: block;
+  }
+  .rectangle {
+    left: 0px;
+    height: 5rem;
+    display: flex; 
+    /* flex: jika di samping msh ada tempat->isi */
+  }
+  .maroon {
+    top: 0px;
+    background-color: maroon;
+  }
+  .form{
+    height: 215vh;
+    margin: 0;
+    background-image: url("img/campus.jpg");
+    background-size: cover;
+  }
+  .formbox{
+    margin: 5rem auto;
+    max-width: 800px;
+    top: 3%;
+    position: relative;
+    display: block;
+    background: rgba(0,0,0,0.7);
+    box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .form-header{
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    text-align: center;
+    color: white;
+  }
+  .form-header p{
+    margin: 10px;
+  }
+  .form-title h2{
+    margin: 10px;
+    text-align: center;
+    color: white;
+  }
+  label{
+    color: white;
+  }
+  span{
+    color: white;
+  }
+  .form-content{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  input[type="date"]{
+    width: 30%;
+    padding: 5px 5px;
+    margin: 1rem 0;
+  }
+  .form-content input[type="text"]{
+    padding: 10px 10px;
+    margin: 1rem 0;
+    border-radius: 5px;
+    width: 100%;
+  }
+  input[type="radio"]{
+    margin: 1rem 0;
+  }
+  span{
+    margin-right: 1rem;
+  }
+  .form-content input[type="tel"]{
+    border-style: none;
+    padding: 5px 5px;
+    border-radius: 2px;
+    margin: 1rem 0;
+    padding: 10px 10px;
+    width: 30%
+  }
+  .form-content input[type="email"]{
+    border-style: none;
+    border-radius: 2px;
+    margin: 1rem 0;
+    padding: 10px 10px;
+    width: 30%;
+  }
+  .form-content input[type="number"]{
+    margin: 1rem 0;
+    padding: 5px 5px;
+  }
+  .form-content input[type="file"]{
+    margin: 10px 0;
+    color: white;
+  }
+  .form-content textarea{
+    width: 100%;
+  }
+  .button{
+    transform: translate(263%, 3%);
+    background-color: maroon;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  .button:hover{
+    background-color: white;
+    color: maroon;
+  }
+
+  .footer-container{
+    padding: 2rem;
+  }
+  .icon{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+  }
+  .resize-icon{
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem 1rem;
+  }
+  .footer{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+  }

@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+  }
+  .logo {
+    width: 53px;
+    height: 46px;
+    /* margin: top-bottom left right */
+    margin: 1rem 1rem;
+  }
+  .navigation ul {
+    float: right;
+    margin: 22px;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    list-style: none;
+    display: flex;
+  }
+  .search-form{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    display: flex;
+    transform: translate(-50%, -10%);
+    background: white;
+    height: 40px;
+    border-radius: 40px;
+  }
+  .search-form:hover > .search-txt{
+    margin-left: 10px;
+    padding: 5px;
+    width: 200px;
+    padding: 0 6px;
+  }
+  .search-form:hover > .search-btn{
+    background: white;
+    border-radius: 20px;
+    margin-right: 3px;
+  }
+  input[type=text]{
+    border: none;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+  .search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 20px;
+    transition: 0.4s;
+    line-height: 25px;
+    width: 0px;
+  }
+  .search-btn img{
+    float: right;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+  }
+  .navigation{
+    width: 100%;
+    padding-top: 5px;
+  }
+  .navigation li a{
+    margin: 1rem;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .navigation li a:hover{
+    text-decoration: underline;
+  }
+  .text {
+    white-space: nowrap;
+    text-align: justify;
+    font-size: 1rem;
+    margin: 1.2rem 1rem;
+    color: white;
+    display: block;
+  }
+  .rectangle {
+    left: 0px;
+    height: 5rem;
+    display: flex; 
+    /* flex: jika di samping msh ada tempat->isi */
+  }
+  .maroon {
+    top: 0px;
+    background-color: maroon;
+  }
+  .blog{
+    margin: 7.5rem 7rem;
+  }
+  .blog h1{
+    margin: 2rem;
+    font-family: calibri, sans-serif;
+    text-align: center;
+    font-size: 3.5rem;
+  }
+  .blog p{
+    font-family: calibri, sans-serif;
+    text-align: justify;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+  .resize{
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+  .sub-title{
+    font-size: 2rem;
+    font-family: calibri, sans-serif;
+  }
+  .blog-content p{
+    font-family: calibri, sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .sub-title2{
+    font-size: 1.5rem;
+    font-family: calibri, sans-serif;
+    margin-bottom: 2rem;
+  }
+  .link{
+    color: maroon;
+    text-decoration: none;
+  }
+  .link:hover{
+    text-decoration: underline;
+  }
+  .footer-container{
+    margin-top: 6rem;
+    padding: 2rem;
+  }
+  .icon{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+  }
+  .resize-icon{
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem 1rem;
+  }
+  .footer{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+  }

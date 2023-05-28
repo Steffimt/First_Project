@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+  }
+  .logo {
+    width: 53px;
+    height: 46px;
+    /* margin: top-bottom left right */
+    margin: 1rem 1rem;
+  }
+  .navigation ul {
+    float: right;
+    margin: 22px;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    list-style: none;
+    display: flex;
+  }
+  .search-form{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    display: flex;
+    transform: translate(-50%, -10%);
+    background: white;
+    height: 40px;
+    border-radius: 40px;
+  }
+  .search-form:hover > .search-txt{
+    margin-left: 10px;
+    padding: 5px;
+    width: 200px;
+    padding: 0 6px;
+  }
+  .search-form:hover > .search-btn{
+    background: white;
+    border-radius: 20px;
+    margin-right: 3px;
+  }
+  input[type=text]{
+    border: none;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+  .search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 20px;
+    transition: 0.4s;
+    line-height: 25px;
+    width: 0px;
+  }
+  .search-btn img{
+    float: right;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+  }
+  .navigation{
+    width: 100%;
+    padding-top: 5px;
+  }
+  .navigation li a{
+    margin: 1rem;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .navigation li a:hover{
+    text-decoration: underline;
+  }
+  .text {
+    white-space: nowrap;
+    text-align: justify;
+    font-size: 1rem;
+    margin: 1.2rem 1rem;
+    color: white;
+    display: block;
+  }
+  .rectangle {
+    left: 0px;
+    height: 5rem;
+    display: flex; 
+    /* flex: jika di samping msh ada tempat->isi */
+  }
+  .maroon {
+    top: 0px;
+    background-color: maroon;
+  }
+  .univ{
+    margin-top: 5rem;
+  }
+  .univ-box{
+    height: 33rem;
+    margin-right: 0;
+  }
+  .about{
+    color: white;
+    margin: auto 4rem;
+    white-space: nowrap;
+    width: 25%;
+    font-size: 1.5rem;
+    padding-top: 7rem;
+  }
+  .resize{
+    width: 65%;
+    height: 33rem;
+    float: right;
+    margin-left: 4rem;
+  }
+  .univ-text p{
+    text-align: justify;
+    color: white;
+    margin: 2rem 4rem;
+  }
+  .inside{
+    margin: 2rem 2rem;
+  }
+  .visi-misi{
+    margin: 4rem 4rem;
+    text-align: center;
+  }
+  .visi{
+    font-family: calibri, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .line{
+    background-color: firebrick;
+    height: 5px;
+    width: 60px;
+    margin: auto;
+    margin-bottom: 4rem;
+  }
+  .visi-text{
+    font-style: italic;
+    text-align: center;
+    font-size: 2rem;
+    margin: 4rem 4rem;
+  }
+  .misi{
+    font-family: calibri, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .misi-text{
+    text-align: justify;
+    justify-content: center;
+    margin: auto 7.5rem;
+  }
+  .misi-text ol{
+    margin: 4rem;
+  }
+  .misi-text li{
+    font-size: 2rem;
+  }
+  .university{
+    font-family: calibri, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .grid{
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .number{
+    text-align: center;
+    font-size: 2rem;
+    margin: 0.25em;
+    color: firebrick;
+  }
+  .campus2{
+    font-family: calibri, sans-serif;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+  .footer-container{
+    margin-top: 6rem;
+    padding: 2rem;
+  }
+  .icon{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+  }
+  .resize-icon{
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem 1rem;
+  }
+  .footer{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+  }

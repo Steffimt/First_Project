@@ -1,0 +1,316 @@
+/* always add beforehand */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+  }
+  .logo {
+    width: 53px;
+    height: 46px;
+    /* margin: top-bottom left right */
+    margin: 1rem 1rem;
+  }
+  .navigation ul {
+    float: right;
+    margin: 22px;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    list-style: none;
+    display: flex;
+  }
+  .search-form{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    display: flex;
+    transform: translate(-50%, -10%);
+    background: white;
+    height: 40px;
+    border-radius: 40px;
+  }
+  .search-form:hover > .search-txt{
+    margin-left: 10px;
+    padding: 5px;
+    width: 200px;
+    padding: 0 6px;
+  }
+  .search-form:hover > .search-btn{
+    background: white;
+    border-radius: 20px;
+    margin-right: 3px;
+  }
+  input[type=text]{
+    border: none;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+  .search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 20px;
+    transition: 0.4s;
+    line-height: 25px;
+    width: 0px;
+  }
+  .search-btn img{
+    float: right;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+  }
+  .navigation{
+    width: 100%;
+    padding-top: 5px;
+  }
+  .navigation li a{
+    margin: 1rem;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .navigation li a:hover{
+    text-decoration: underline;
+  }
+  .text {
+    white-space: nowrap;
+    text-align: justify;
+    font-size: 1rem;
+    margin: 1.2rem 1rem;
+    color: white;
+    display: block;
+  }
+  .rectangle {
+    left: 0px;
+    height: 5rem;
+    display: flex; 
+    /* flex: jika di samping msh ada tempat->isi */
+  }
+  .maroon {
+    top: 0px;
+    background-color: maroon;
+  }
+  
+  /* header */
+
+  .banner{
+    height: 100vh;
+    width: 100%;
+    padding-top: 40vh;
+    background-image: url('../img/Education.jpg');
+    background-size: cover;
+    text-align: center;
+  }
+  .banner h2{
+    color: black;
+    z-index: 1;
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+  }
+  .button{
+    color: black;
+    font-size: 1rem;
+    font-family: sans-serif;
+    padding: 10px;
+    width: 12%;
+    background: none;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid maroon;
+    text-decoration: none;
+  }
+  .button:hover{
+    color: white;
+    background: maroon;
+    text-decoration: underline;
+    transition: 0.5s;
+  }
+  .fact{
+    height: 65vh;
+  }
+  .fact h1{
+    font-family: calibri, sans-serif;
+    width: 80%;
+    margin: auto;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 100px;
+  }
+  .line{
+    background-color: firebrick;
+    height: 5px;
+    width: 80px;
+    margin: auto;
+  }
+  .grid{
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .number{
+    text-align: center;
+    font-size: 2rem;
+    margin: 0.25em;
+    color: firebrick;
+  }
+  .fact2{
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+  .facility{
+    width: 80%;
+    margin: auto;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .resize{
+    height: 180px;
+    width: 270px;
+    object-fit: cover;
+  }
+  .box{
+    margin: auto;
+    height: 180px;
+    width: 270px;
+    transition: 0.8s;
+    position: relative;
+  }
+  .box:hover{
+    box-shadow: 5px 5px 10px #8888;
+    transform: scale(1.07);
+    z-index: 1;
+  }
+  .layer{
+    color: transparent;
+    background: transparent;
+    font-size: 1rem;
+    font-family: arial;
+    transition: 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .layer:hover{
+    font-family: arial;
+    font-size: 1rem;
+    color: white;
+    background: rgba(128, 0, 0, 0.7);
+  }
+  .facilities{
+    margin: 5% 2rem;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .facilities2{
+    margin: 2rem;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .content{
+    margin-top: 4rem;
+  }
+  .article{
+    width: 60%;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    z-index: 1;
+  }
+  .blog{
+    width: 80%;
+    margin: auto;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .blogbox{
+    display: flex;
+    width: 100%;
+    margin: 5rem;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: maroon;
+  }
+  .article-title{
+    position: absolute;
+    display: flex;
+    font-family: calibri, sans-serif;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    left: 58%;
+    box-sizing: border-box;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    justify-content: center;
+  }
+  .article-title h1{
+    margin: 3rem 5rem;
+    padding: 20px;
+  }
+  .article-text{
+    color: white;
+    margin: auto;
+    box-sizing: border-box;
+    font-size: 0.8rem;
+    text-align: justify;
+    justify-content: center;
+    font-family: calibri, sans-serif;
+  }
+  .article-text h2{
+    padding-top: 3rem;
+    margin: 5rem;
+    margin-bottom: 3rem;
+  }
+  .link a{
+    color: white;
+    display: flex;
+    margin: auto;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 3rem 5rem;
+    font-size: 0.8rem;
+    font-family: arial, sans-serif;
+  }
+  .link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .footer-container{
+    margin-top: 6rem;
+    padding: 2rem;
+  }
+  .icon{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+  }
+  .resize-icon{
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem 1rem;
+  }
+  .footer{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+  }

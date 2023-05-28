@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+  }
+  .logo {
+    width: 53px;
+    height: 46px;
+    /* margin: top-bottom left right */
+    margin: 1rem 1rem;
+  }
+  .navigation ul {
+    float: right;
+    margin: 22px;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    list-style: none;
+    display: flex;
+  }
+  .search-form{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    display: flex;
+    transform: translate(-50%, -10%);
+    background: white;
+    height: 40px;
+    border-radius: 40px;
+  }
+  .search-form:hover > .search-txt{
+    margin-left: 10px;
+    padding: 5px;
+    width: 200px;
+    padding: 0 6px;
+  }
+  .search-form:hover > .search-btn{
+    background: white;
+    border-radius: 20px;
+    margin-right: 3px;
+  }
+  input[type=text]{
+    border: none;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+  .search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 20px;
+    transition: 0.4s;
+    line-height: 25px;
+    width: 0px;
+  }
+  .search-btn img{
+    float: right;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+  }
+  .navigation{
+    width: 100%;
+    padding-top: 5px;
+  }
+  .navigation li a{
+    margin: 1rem;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .navigation li a:hover{
+    text-decoration: underline;
+  }
+  .text {
+    white-space: nowrap;
+    text-align: justify;
+    font-size: 1rem;
+    margin: 1.2rem 1rem;
+    color: white;
+    display: block;
+  }
+  .rectangle {
+    left: 0px;
+    height: 5rem;
+    display: flex; 
+    /* flex: jika di samping msh ada tempat->isi */
+  }
+  .maroon {
+    top: 0px;
+    background-color: maroon;
+  }
+  .school{
+    margin-top: 8rem;
+  }
+  .title{
+    text-align: center;
+    color: black;
+    font-size: 2.5rem;
+  }
+  .line{
+    background-color: firebrick;
+    height: 5px;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+  .caption{
+    margin: auto 6rem;
+    font-family: calibri, sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+  }
+  .faculty{
+    margin: 2rem 2.5rem;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .box{
+    margin: auto auto;
+    height: 150px;
+    width: 250px;
+    transition: 0.8s;
+    position: relative;
+  }
+  .resize{
+    height: 150px;
+    width: 250px;
+    object-fit: cover;
+  }
+  .layer{
+    color: transparent;
+    background: transparent;
+    transition: 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .layer:hover{
+    font-family: arial;
+    font-size: 1rem;
+    color: white;
+    background: rgba(128, 0, 0, 0.5);
+  }
+  figure{
+    display: inline-block;
+    margin: 1rem;
+  }
+  figure img{
+    vertical-align: top;
+  }
+  figure figcaption{
+    font-size: 1rem;
+    color: white;
+    font-family: calibri, sans-serif;
+    background-color: maroon;
+    box-shadow: 2px 3px 5px #8888;
+    padding: 1rem 1rem;
+    text-align: left;
+  }
+  .faculty2{
+    margin: 4rem 2.5rem;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .faculty3{
+    margin: 4rem 2.5rem;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .faculty4{
+    margin: 4rem 2.5rem;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .footer-container{
+    margin-top: 6rem;
+    padding: 2rem;
+  }
+  .icon{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+  }
+  .resize-icon{
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem 1rem;
+  }
+  .footer{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+  }

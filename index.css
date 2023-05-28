@@ -106,7 +106,7 @@
     height: 100vh;
     width: 100%;
     padding-top: 40vh;
-    background-image: url('../img/Education.jpg');
+    background-image: url(img/Education.jpg);
     background-size: cover;
     text-align: center;
   }
